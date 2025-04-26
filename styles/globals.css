@@ -122,3 +122,11 @@ body {
   transition: all 0.2s ease-in;
 
 }
+
+.gradient_bg{
+  background: radial-gradient(
+    closest-side,
+    rgba(170, 20, 240, 0.31) 0%,
+    rgba(170, 20, 240, 0) 100%
+  );
+}

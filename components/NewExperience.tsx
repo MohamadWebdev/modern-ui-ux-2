@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const NewExperience = () => {
   return (
-    <section className="w-full flex text-white justify-between flex-wrap max-md:flex-col max-md:items-center max-md:mt-10">
+    <section className="w-full z-[10] flex text-white justify-between flex-wrap max-md:flex-col max-md:items-center max-md:mt-10">
       <div className="flex max-sm:flex-col">
         <img className="w-[205.16px] mr-5 h-[277.16]" src="/img/Group1.png" alt="" />
         <img className="w-[205.16px] h-[277.16] mt-25" src="/img/Group2.png" alt="" />
