@@ -82,3 +82,43 @@ body {
   transition: all 0.2s ease-in;
 
 }
+
+.selected2>li{
+  background: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-in;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-out;
+}
+
+.selected2>li:hover {
+  background: linear-gradient(
+    99.05deg,
+    rgba(200, 36, 236, 1) 0%,
+    rgba(223, 48, 141, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-in;
+
+}
+
+.selected2>li:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 40%;
+  width: 15px;
+  height: 5px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+
+}
