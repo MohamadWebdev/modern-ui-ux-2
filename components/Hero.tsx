@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "./Button";
 
 const Hero = () => {
@@ -17,16 +18,20 @@ const Hero = () => {
         </div>
         <div className="mt-8 flex">
           {[...Array(4)].map((_, i) => (
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src="/img/user.png"
               alt="user"
               key={i}
-              className={`${i > 0 && "-ml-2"} outline rounded-full`}
+              className={`${i > 0 && "-ml-2"} outline rounded-full w-[32px] h-[32px]`}
             />
           ))}
 
           <div className="flex items-center ml-5 gap-2">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               className="w-[8.34px] h-[8.34px]"
               src="/img/circle.png"
               alt="circle"
@@ -39,7 +44,9 @@ const Hero = () => {
       </div>
 
       <div className="sm:w-[380px] w-[300px] sm:h-[510px] h-[430px] relative text-white flex">
-        <img
+        <Image
+          width={1000}
+          height={1000}
           src="/img/hero-image.png"
           alt="hero-image"
           className="w-full absolute z-5"
