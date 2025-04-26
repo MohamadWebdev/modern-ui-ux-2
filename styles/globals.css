@@ -33,3 +33,52 @@ body {
     rgba(197, 75, 140, 1) 100%
   );
 }
+
+.gradient-2 {
+  background: linear-gradient(
+    99.99deg,
+    rgba(185, 54, 245, 1) 0%,
+    rgba(241, 0, 91, 1) 99.98999834060669%,
+    rgba(198, 76, 133, 1) 100%
+  );
+}
+
+.selected>li{
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-in;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-out;
+}
+
+.selected>li:hover {
+  background: linear-gradient(
+    99.05deg,
+    rgba(200, 36, 236, 1) 0%,
+    rgba(223, 48, 141, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-in;
+
+}
+
+.selected>li:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 40%;
+  width: 15px;
+  height: 5px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+
+}
