@@ -21,7 +21,7 @@ const Hero = () => {
               src="/img/user.png"
               alt="user"
               key={i}
-              className={`${i > 0 && "-ml-2"}`}
+              className={`${i > 0 && "-ml-2"} outline rounded-full`}
             />
           ))}
 
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[380px] h-[510px] relative text-white flex">
+      <div className="sm:w-[380px] w-[300px] sm:h-[510px] h-[430px] relative text-white flex">
         <img
           src="/img/hero-image.png"
           alt="hero-image"
