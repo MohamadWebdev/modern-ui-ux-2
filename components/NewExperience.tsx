@@ -2,13 +2,13 @@ import Button from "./Button";
 
 const NewExperience = () => {
   return (
-    <section className="w-full flex text-white justify-between">
-      <div className="flex">
+    <section className="w-full flex text-white justify-between flex-wrap max-md:flex-col max-md:items-center max-md:mt-10">
+      <div className="flex max-sm:flex-col">
         <img className="w-[205.16px] mr-5 h-[277.16]" src="/img/Group1.png" alt="" />
         <img className="w-[205.16px] h-[277.16] mt-25" src="/img/Group2.png" alt="" />
       </div>
 
-      <div className=" max-w-[218px] flex flex-col gap-3 h-[393px] justify-end pb-10">
+      <div className="md:max-w-[250px] max-w-[400px] flex flex-col gap-3 md:h-[393px] md:justify-end md:pb-10 max-md:mb-10 max-md:mt-15">
         <h1 className="font-Orbitron font-black text-[20.85px] w-full leading-[33.4px]">
           New Experience In Playing Game
         </h1>
