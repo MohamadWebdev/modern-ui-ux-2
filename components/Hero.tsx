@@ -38,13 +38,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[421.01px] h-[553px] relative text-white flex">
+      <div className="w-[380px] h-[510px] relative text-white flex">
         <img
           src="/img/hero-image.png"
           alt="hero-image"
           className="w-full absolute z-5"
         />
-        <div className="z-10 bottom-10 gap-5 absolute w-full -ml-2 flex flex-col justify-center items-center">
+        <div className="z-10 bottom-15 gap-5 absolute w-full -ml-2 flex flex-col justify-center items-center">
           <h1 className="font-Orbitron font-extrabold text-[19.59px] w-full text-center">
             Cinematic Virtual Reality
           </h1>
