@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="mt-20 flex w-full justify-between h-auto">
+    <section className="md:mt-20 mt-10 flex w-full md:flex-row flex-col max-md:items-center justify-between h-auto flex-wrap max-md:gap-10">
       <div className="text-white">
         <h1 className="font-Orbitron text-[31.69px] font-black leading-[43.4px] text-left max-w-[333px]">
           Let’s Explore Three-Dimensional visual
