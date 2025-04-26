@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* responsive navbar */}
         <ResponsiveNavbar />
 
-        <Button style="gradient-1" title="Sign In" />
+        <Button style="gradient-1 md:flex hidden justify-center items-center" title="Sign In" />
       </div>
     </div>
   );
