@@ -6,7 +6,7 @@ const page = () => {
     <div className="w-full">
       <div className="w-full max-w-[854px] mx-auto">
         <Navbar/>
-        {/* <Hero/> */}
+        <Hero/>
         {/* 
         <NewExperienceInPlayingGame/> 
         */}
