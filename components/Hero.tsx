@@ -45,7 +45,7 @@ const Hero = () => {
           className="w-full absolute z-5"
         />
         <div className="z-10 bottom-15 gap-5 absolute w-full -ml-2 flex flex-col justify-center items-center">
-          <h1 className="font-Orbitron font-extrabold text-[19.59px] w-full text-center">
+          <h1 className="font-Orbitron font-extrabold sm:text-[19.59px] text-[16px] w-full text-center">
             Cinematic Virtual Reality
           </h1>
 
